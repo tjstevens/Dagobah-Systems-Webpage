@@ -3,7 +3,6 @@
     margin: 0;
     margin-bottom: 25px;
     padding: 0;
-    background-color: red;
     font-family: monospace;
     font-size: 10px;
   }
@@ -15,6 +14,7 @@
   }
   
   a  {color: white;
+    text-decoration: none;
     text-align: center;
   }
   
@@ -43,6 +43,7 @@
     border: none;
     border-top: none;
     padding: 25px;
+    padding-bottom: 45px;
     width: 760px;
     -moz-box-shadow: 3px 3px 4px grey;
     -webkit-box-shadow: 3px 3px 4px grey;
@@ -60,24 +61,57 @@
     background: -ms-linear-gradient(top, #000000 0%,#45484d 100%); /* IE10+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #000000 0%,#45484d 100%); /* W3C */
-    border: none;
-    -moz-border-radius: 15px;
+    border: 1px;
+    -moz-border-radius: 3px;
     border-radius: 3px;
     border-top: none;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: #90EE90;
+    border-color: grey;
+    border-style: inset;
   }
 
   #footer {
     font-family: arial;
     font-size: 10px;
-    text-align: right;
-    padding: 0px;
+    padding: 10px;
     color: rgba(224,239,249,1);
   }
 
   #header {
 
   }
+
+  #left-tile {
+    text-align: left;
+    float: left;
+    width: 300px;
+  }
+  
+  #right-tile {
+    text-align: right;
+    float: right;
+    width: 300px;
+  }
+  
+  #login-button {
+    background: rgba(242,246,248,1);
+    font-size: 10px;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 25px;
+    border: 3px;
+    border-style: groove;
+    border-color: #82EAFC;
+    box-shadow: 0px 0px 5px #82EAFC;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+  }
+
 
 </style>
