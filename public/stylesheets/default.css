@@ -1,4 +1,4 @@
-<style type="text/css" media="screen">
+
   body {
     margin: 0;
     margin-bottom: 25px;
@@ -105,7 +105,7 @@
     padding-right: 5px;
     text-align: center;
     width: 30px;
-    height: 30px
+    height: 30px;
     border: 3px;
     border-style: groove;
     border-color: #82EAFC;
@@ -113,6 +113,3 @@
     -moz-border-radius: 30px;
     border-radius: 30px;
   }
-
-
-</style>
