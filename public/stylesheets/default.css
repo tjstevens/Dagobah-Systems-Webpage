@@ -8,9 +8,9 @@
   }
 
   pre {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
-    text-shadow: 0px 0px 5px #00FF00;
+
   }
   
   a  {color: white;
@@ -68,6 +68,7 @@
     padding-left: 25px;
     padding-right: 25px;
     color: #90EE90;
+    text-shadow: 0px 0px 5px #00FF00;
     border-color: grey;
     border-style: inset;
   }
@@ -76,9 +77,14 @@
     font-family: arial;
     font-size: 10px;
     padding: 10px;
+    height: 40px;
     color: rgba(224,239,249,1);
   }
 
+  #system-text {
+    color: #BFBFBF;
+  }
+  
   #header {
 
   }
@@ -113,3 +119,8 @@
     -moz-border-radius: 30px;
     border-radius: 30px;
   }
+  
+  #call-me-button {
+    float: right;
+  }
+  
